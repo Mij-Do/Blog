@@ -21,3 +21,8 @@
 .jumbotron, .navbar, img{
     border-radius: 5px;
 }
+
+div table th,tr td{
+    border-bottom: solid 1px gray;
+    padding: 10px;
+}
