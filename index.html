@@ -21,7 +21,56 @@
                     <a href="#" class="text-light text-decoration-none logo">My Blog</a>
                 </div>
                 <div class="col-4 text-end">
-                    <a href="#" class="btn btn-sm btn-outline-secondary">Sign-in</a>
+                <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Sign Up
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">SIGN UP</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                    <div class="modal-body">
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1">U</span>
+                                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                        
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon3">P</span>
+                                                <input type="text" placeholder="Password" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text">Ph</span>
+                                            <input type="number" class="form-control" placeholder="Your PhoneNumber" aria-label="PhoneNumber">
+                                            <span class="input-group-text">Code</span>
+                                            <input type="text" class="form-control" placeholder="Code" aria-label="Code">
+                                        </div>
+                                        
+                                        <div class="input-group">
+                                            <span class="input-group-text">Your Messege</span>
+                                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                                        </div>
+                                    </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-outline-secondary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- End first nav (Logo, Search btn, Subscribe link) -->
             </div>
