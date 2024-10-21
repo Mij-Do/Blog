@@ -31,3 +31,12 @@ footer{
     background-color: gray;
     border-radius: 5px;
 }
+
+
+#btn-less , #btn-more{
+    width: fit-content;
+}
+/* display none the elements in title of */
+.title-of #first , #second , #end, #btn-less{
+    display: none;
+}
