@@ -21,6 +21,12 @@
 .jumbotron, .navbar, img, .brd{
     border-radius: 5px;
 }
+/* cards */
+#sticky-cards {
+    z-index: 5;
+}
+/* cards */
+
 
 div table th,tr td{
     border-bottom: solid 1px gray;
@@ -40,3 +46,26 @@ footer{
 .title-of #first , #second , #end, #btn-less{
     display: none;
 }
+
+/* Back to top Button */
+#back-top {
+    cursor: pointer;
+    color: gray;
+    background-color: #181818;
+    outline: none;
+    border: none;
+    min-width: 50px;
+    border-radius: 3px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: 0.3s;
+    z-index: 10;
+    display: none;
+}
+#back-top:hover {
+    background-color: gray;
+    color: white;
+}
+/* Back to top Button */
