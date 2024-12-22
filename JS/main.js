@@ -1,3 +1,4 @@
+// more&less
 let btnMore = document.getElementById("btn-more");
 let btnLess = document.getElementById("btn-less");
 let firstP = document.getElementById("first");

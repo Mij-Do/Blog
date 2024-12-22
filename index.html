@@ -18,6 +18,9 @@
                     <a href="./index.html" class="text-light text-decoration-none logo">My Blog</a>
                 </div>
                 <div class="col-6 text-end">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#">
+                        Log In
+                    </button>
                 <!-- Button trigger modal -->
                     <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Sign Up
@@ -34,26 +37,26 @@
                                     <div class="modal-body">
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="basic-addon1">U</span>
-                                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                            <input id="userInput" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                                         </div>
                                         
                                         <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <input id="gmailInput" type="text" class="form-control" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                             <span class="input-group-text" id="basic-addon2">@gmail.com</span>
                                         </div>
                                         
                                         <div class="mb-3">
                                             <div class="input-group">
                                                 <span class="input-group-text" id="basic-addon3">P</span>
-                                                <input type="text" placeholder="Password" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                                <input id="passwordInput" type="text" placeholder="Password" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
                                             </div>
                                         </div>
                                         
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">Ph</span>
-                                            <input type="number" class="form-control" placeholder="Your PhoneNumber" aria-label="PhoneNumber">
-                                            <span class="input-group-text">Code</span>
-                                            <input type="text" class="form-control" placeholder="Code" aria-label="Code">
+                                            <input id="phoneInput" type="number" class="form-control" placeholder="Your PhoneNumber" aria-label="PhoneNumber">
+                                            <!-- <span class="input-group-text">Code</span>
+                                            <input type="text" class="form-control" placeholder="Code" aria-label="Code"> -->
                                         </div>
                                         
                                         <div class="input-group">
@@ -63,7 +66,7 @@
                                     </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-outline-secondary">Save changes</button>
+                                    <button id="signUp-btn" type="button" class="btn btn-outline-success">SIGN UP</button>
                                 </div>
                             </div>
                         </div>
@@ -608,6 +611,7 @@
             </footer>
         </div>
         <script src="./JS/main.js"></script>
+        <script src="./JS/signUp.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
