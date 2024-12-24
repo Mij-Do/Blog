@@ -18,16 +18,46 @@
                     <a href="./index.html" class="text-light text-decoration-none logo">My Blog</a>
                 </div>
                 <div class="col-6 text-end">
-                    <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#login">
                         Log In
                     </button>
+                    <!-- start Modal sign-up -->
+                    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">LOG IN</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                    <div class="modal-body">
+                                        
+                                        <div class="input-group mb-3">
+                                            <input id="logGmailInput" type="text" class="form-control" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon3">P</span>
+                                                <input id="logPasswordInput" type="text" placeholder="Password" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                                    <button id="logInBtn" type="button" class="btn btn-outline-success">LOG IN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end modal sign-up -->
                 <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#signup">
                         Sign Up
                     </button>
                     
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <!-- start Modal sign-up -->
+                    <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -71,6 +101,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end modal sign-up -->
                 </div>
                 <!-- End first nav (Logo, Search btn, Subscribe link) -->
             </div>
