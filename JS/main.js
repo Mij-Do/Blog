@@ -18,7 +18,8 @@ btnMore.addEventListener("click" , function () {
                 theEnd.style.cssText = "display:none";
                 btnLess.addEventListener("click",function () {
                     secondP.style.cssText = "display:none";
-                    btnLess.addEventListener("click",function () {
+                    btnLess.addEventListener("click",function () { 
+                        
                         firstP.style.cssText = "display:none";
                         btnLess.style.cssText = "display:none";
                         btnMore.style.cssText = "display:block";
